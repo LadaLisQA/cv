@@ -43,7 +43,6 @@ h1 {
 h1:first-letter {
   color: red;
   -webkit-text-stroke: 3px black;}
-
 .steklo{
 position: absolute;
 padding:10px;
