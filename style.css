@@ -1,0 +1,111 @@
+.container {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.header{
+  margin: auto
+}
+p{
+  position: absolute; 
+  text-align:center;
+  z-index: 1;
+}
+
+.doska{
+  position: absolute; 
+  padding:10px;
+  left: 0px; 
+  top:-30px;
+z-index: 2;
+}
+.dino{
+  position: absolute; 
+  padding:10px;
+  left: 90px; 
+  top: 23px;
+z-index: 3;
+}
+.asaurus{
+position: absolute;
+padding:10px;
+left: 232px;
+top: 70px;
+z-index: 4;
+}
+h1 {
+  font-size: 70px;
+}
+h1:first-letter {
+  color: red;
+  -webkit-text-stroke: 3px black;}
+
+.steklo{
+position: absolute;
+padding:10px;
+left: 190px;
+top: 150px;
+z-index: 5;
+transform: rotate(25deg);
+}
+.bukva{
+  position: absolute;
+  padding:10px;
+  left: 151px;
+  top: 122px;
+  z-index:6;
+  transform: rotate(-2deg); 
+}
+
+  
+   .sisk {
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(97, 41, 41);
+    margin: 20px 0;
+    position: absolute;
+    padding:10px;
+    left: 260px;
+    top: 30px;
+    z-index:7;
+    }
+    .telega{
+      position: absolute;
+      padding:10px;
+      left: 540px;
+      top: 100px;
+      transform: rotate(-40deg);
+      z-index:8;
+    }
+    .pochta{
+      position: absolute;
+      padding:10px;
+      left: 400px;
+      top: 230px;
+      z-index:8;
+    }
+    .git{
+      position: absolute;
+      padding:10px;
+      left: 800px;
+      top: 110px;
+      z-index:8;
+    }
+    
+    .but {
+      position: absolute;
+      padding:0px;
+      left: 100px;
+      top: 300px;
+      transform: rotate(25deg); 
+      z-index:8;
+    }
+  
+
+
+
+  
+
